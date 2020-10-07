@@ -4,7 +4,7 @@
 The quiz game was developed using bootstrap and javascript, it have a clean, polished, and responsive user interface. The game consist in multiple choice questions with timer and posibility to save the score and display the high score list. High score list will be saved in local storage, you can play later without loosing the score list.
 
 ### Screenshot of the project
-![quiz game](./Assets/screenshot.png)
+![quiz game](./Assets/screenshot.png.png)
 
 ### Tech/framework used:
 * Javascript
