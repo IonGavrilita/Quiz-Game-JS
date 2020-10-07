@@ -36,8 +36,6 @@ saveScoreBtn.addEventListener("click", function(event) {
     saveScoreBtn.style.display = "none";
   }
 
-
-
 // Get the score with user name from local storage
 
 var highScores = JSON.parse(localStorage.getItem("scores"));
@@ -57,7 +55,9 @@ highScoresList.appendChild(li)
 clearScoreBtn.addEventListener("click", function(event) {
   event.preventDefault();
   window.localStorage.clear();
+ location.reload();
 });
+
 
 
 

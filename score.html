@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Highscore</title>
-    <!--Css Reference-->
-    <link rel="stylesheet" href="style.css">
+    
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Css Reference-->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -38,11 +40,13 @@
             <form id="score-form">
             <input type= "text" name="name" id="username"  placeholder="Enter your name">
             </form>
+            <hr>
             <button type="button"  class="btn btn-primary btn-lg" id="saveScoreBtn" >Save</button>  
             <hr class="my-4">
             <ul id="highScoresList">
-                <p>Score list.</p>
+                <h4>Score list:</h4>
             </ul>
+            <hr>
             <button type="button"  class="btn btn-primary btn-lg" id="clearScoreBtn" >clear</button> 
         </div>
         </div>
