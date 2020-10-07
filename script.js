@@ -4,9 +4,6 @@ var questionEl = document.getElementById("question");
 var answerEl = document.getElementById("answer");
 var startQuiz = document.getElementById("start");
 var scoreEl = document.getElementById("myHighScore");
-var correct = document.getElementById("correct");
-var wrong = document.getElementById("wrong");
-
 var time = 60;
 var countDown;
 var currentIndex = 0;
