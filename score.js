@@ -9,8 +9,6 @@ var clearScoreBtn = document.getElementById("clearScoreBtn");
 var recentScore = JSON.parse(localStorage.getItem("highScore"));
 finalScore.innerHTML ="Score:" + recentScore;
 
-
-
 saveScoreBtn.addEventListener("click", function(event) {
   saveScoreBtn.disabled = "click";
   event.preventDefault();

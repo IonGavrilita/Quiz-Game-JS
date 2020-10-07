@@ -1,4 +1,4 @@
-//Set up the variables
+//Set up the variables.
 var timerEl = document.getElementById("timer");
 var questionEl = document.getElementById("question");
 var answerEl = document.getElementById("answer");
@@ -9,7 +9,7 @@ var countDown;
 var currentIndex = 0;
 var highScore = 0;
 
-//Set up questions
+//Set up questions.
 var questions = [{
     //Question 1
     question: "What is JavaScript?",
@@ -36,7 +36,7 @@ var questions = [{
     answer: [" Return a value", "Accept parameters and Return a value", "Accept parameters", "None of the above"],
     correct: "Accept parameters",
 }];
-// Set up the timer
+// Set up the timer.
 function timer(){
     time--;
     timerEl.textContent = "Time:" + time;
