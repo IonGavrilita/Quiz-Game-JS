@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <!--Css Reference-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <!--Bootstrap nabar time display-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="nav-link" href="score.html" id="viewhighscore">View Highscore</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="navbar-brand float-right" id="timer">Timer:60</span>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="navbar-brand float-right" id="myHighScore">Score:0</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+     <!--Bootstrap main container display-->
+    <main class="container jumbotron" >
+        <div class="row">
+        <div class= "col-md-8">
+            <h1 class="display-4" >Welcome to Quiz Game</h1>
+                <div class="lead" id="question">This is a simple question game, each question have one right answer, if the answer is correct it will add 20 points and 5 seconds to timer, if it's wrong will deduct 5 seconds. Answer as fast as you can to get a highscore. </div>
+            <hr class="my-4">
+                <div  id="answer" >Press the button to start the game.</div>
+                <button type="button" class="btn btn-primary btn-lg" id="start" >Start</button>
+            </div>
+        </div>
+    </main>
+    <!--Quiz script file-->
+    <script src="script.js"></script>
+    </body>
+</html>
