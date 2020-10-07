@@ -32,5 +32,5 @@ You can save your score, clear high score and you can choose to play again.
 * Github profile: https://github.com/IonGavrilita
 
 ### Directory:
-* Website: 
-* Source: 
+* Website: https://iongavrilita.github.io/h4_Quiz-Game-JS/.
+* Source: https://github.com/IonGavrilita/h4_Quiz-Game-JS
